@@ -24,16 +24,48 @@ eazypm is a command-line tool designed to safely reinstall dependencies for Node
 
 ## Installation
 
-Install eazypm globally using npm:
+Install eazypm globally using your preferred package manager:
 
+**npm:**
 ```bash
 npm install -g eazypm
 ```
 
+**pnpm:**
+```bash
+pnpm add -g eazypm
+```
+
+**yarn:**
+```bash
+yarn global add eazypm
+```
+
+**bun:**
+```bash
+bun add -g eazypm
+```
+
 Or install it locally in your project:
 
+**npm:**
 ```bash
 npm install --save-dev eazypm
+```
+
+**pnpm:**
+```bash
+pnpm add -D eazypm
+```
+
+**yarn:**
+```bash
+yarn add -D eazypm
+```
+
+**bun:**
+```bash
+bun add -d eazypm
 ```
 
 ## Usage
