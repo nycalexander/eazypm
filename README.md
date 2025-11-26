@@ -7,6 +7,8 @@
 
 Easy and safe dependency reinstaller for npm, pnpm, yarn, and bun modules with Aikido's [safe-chain](https://github.com/AikidoSec/safe-chain).
 
+<img src="screenshot.PNG" alt="eazypm" >
+
 ## Description
 
 eazypm is a command-line tool designed to safely reinstall dependencies for Node.js projects using various package managers (npm, pnpm, yarn, bun). It leverages Aikido's safe-chain to ensure secure and reliable installations, preventing common issues like dependency conflicts or malicious packages.
