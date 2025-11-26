@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "eazypm": "./eazypm.js"
+    "eazypm": "eazypm.js"
   },
   "scripts": {
     "start": "node eazypm.js"
