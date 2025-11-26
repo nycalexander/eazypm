@@ -1,20 +1,20 @@
-# eazypm
+# ⚡ eazypm
 
 ![Version](https://img.shields.io/npm/v/eazypm?style=flat-square&color=black)
 ![Downloads](https://img.shields.io/npm/dt/eazypm?style=flat-square&color=black)
 ![License](https://img.shields.io/npm/l/eazypm?style=flat-square&color=black)
 ![Node Version](https://img.shields.io/node/v/eazypm?style=flat-square&color=black)
 
-Easy and safe dependency reinstaller for npm, pnpm, yarn, and bun modules with Aikido's safe-guard.
+Easy and safe dependency reinstaller for npm, pnpm, yarn, and bun modules with Aikido's [safe-chain](https://github.com/AikidoSec/safe-chain).
 
 ## Description
 
-eazypm is a command-line tool designed to safely reinstall dependencies for Node.js projects using various package managers (npm, pnpm, yarn, bun). It leverages Aikido's safe-guard to ensure secure and reliable installations, preventing common issues like dependency conflicts or malicious packages.
+eazypm is a command-line tool designed to safely reinstall dependencies for Node.js projects using various package managers (npm, pnpm, yarn, bun). It leverages Aikido's safe-chain to ensure secure and reliable installations, preventing common issues like dependency conflicts or malicious packages.
 
 ## Features
 
 - **Automatic Package Manager Detection**: Detects the package manager based on lock files (pnpm-lock.yaml, yarn.lock, package-lock.json, bun.lockb).
-- **Safe Reinstallation**: Uses Aikido's safe-guard for secure dependency installation.
+- **Safe Reinstallation**: Uses Aikido's safe-chain for secure dependency installation.
 - **Backup Creation**: Automatically backs up your project files before reinstallation.
 - **Interactive CLI**: User-friendly prompts to select package manager and confirm actions.
 - **Cross-Platform**: Works on Windows, macOS, and Linux.
@@ -63,15 +63,6 @@ If you choose to run automatically, it will:
 - Node.js >= 18
 - Supported package managers: npm, pnpm, yarn, or bun
 
-## How It Works
-
-eazypm works by:
-
-1. **Detection**: Scanning for lock files to determine the package manager.
-2. **Dependency Reading**: Parsing `package.json` and lock files to get dependency lists.
-3. **Aikido Integration**: Installing and using Aikido's safe-guard for secure installations.
-4. **Command Generation**: Creating a safe install command using Aikido.
-5. **Execution**: Optionally backing up and running the reinstallation process.
 
 ## Contributing
 
