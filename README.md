@@ -1,4 +1,4 @@
-# eazypm
+# ⚡ eazypm
 
 ![Version](https://img.shields.io/npm/v/eazypm?style=flat-square&color=black)
 ![Downloads](https://img.shields.io/npm/dt/eazypm?style=flat-square&color=black)
