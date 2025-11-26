@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/npm/l/eazypm?style=flat-square&color=black)
 ![Node Version](https://img.shields.io/node/v/eazypm?style=flat-square&color=black)
 
-Easy and safe dependency reinstaller for npm, pnpm, yarn, and bun modules with Aikido's [safe-chain](https://github.com/AikidoSec/safe-chain).
+Easy and safe dependency reinstaller and package manager mover for npm, pnpm, yarn, and bun modules with Aikido's [safe-chain](https://github.com/AikidoSec/safe-chain).
 
 <img src="screenshot.PNG" alt="eazypm" >
 
