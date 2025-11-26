@@ -83,8 +83,9 @@ const ensureAikido = async (pm, spinner) => {
   try {
     await runCommand(`aikido-${pm}`, ['--version'], cwd);
   } catch {
-    spinner.text = `Installing aikido-${pm} locally 🛠`;
-    await runCommand('npm', ['install', '--no-save', `aikido-${pm}`], cwd);
+    spinner.text = `Installing @aikidosec/safe-chain globally 🛡️`;
+    await runCommand('npm', ['install', '-g', `@aikidosec/safe-chain`], cwd);
+    await runCommand('safe-chain', ['setup'], cwd);
   }
 };
 
